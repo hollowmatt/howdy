@@ -1,4 +1,4 @@
-#H owdy 
+# Howdy 
 This is a project to track how your day is.
 
 ## How was it built?
