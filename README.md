@@ -1,7 +1,7 @@
-#Howdy 
+#H owdy 
 This is a project to track how your day is.
 
-##How was it built?
+## How was it built?
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
