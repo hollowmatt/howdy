@@ -8,7 +8,7 @@ class App extends Component {
       <div className="container-fluid">
         <ul className="nav justify-content-center">
           <li className="nav-item">
-            <a className="nav-link active" href="#">How is your day?</a>
+            <a className="nav-link active" href="howdy.html">How is your day?</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">Meeting Tracker</a>
