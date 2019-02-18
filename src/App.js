@@ -13,16 +13,16 @@ class App extends Component {
         <div className="container-fluid">
           <ul className="nav justify-content-center">
             <li className="nav-item">
-              <a className="nav-link active" href="howdy.html">How is your day?</a>
+              <Link to={'/howdy'} className="nav-link active" >How is your day?</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Meeting Tracker</a>
+              <Link to={'#'} className="nav-link">Meeting Tracker</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Time Tracker</a>
+              <Link to={'#'} className="nav-link">Time Tracker</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link disabled" href="#">Login</a>
+              <Link to={'#'} className="nav-link disabled">Login</Link>
             </li>
           </ul>  
           <Switch>
