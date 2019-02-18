@@ -3,7 +3,7 @@ import 'bootstrap-material-design/dist/css/bootstrap-material-design.min.css';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
-import Quiz from './components/quiz';
+import Quiz from './components/Quiz';
 
 class App extends Component {
   render() {
