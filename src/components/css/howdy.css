@@ -25,3 +25,20 @@ input[type='checkbox'] {
 input[type='checkbox']:checked {
     background: #abd;
 }
+
+.footer {
+    background-color: darkgray;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color: blue;
+}
+
+.center {
+    text-align: center;
+}
