@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import 'bootstrap-material-design/dist/css/bootstrap-material-design.min.css';
 import Slider from 'rc-slider';
 import 'rc-slider/assets/index.css';
-import './Day.css';
+import './css/howdy.css';
 
 const marks = {
   1: {
