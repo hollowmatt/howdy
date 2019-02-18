@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import Header from './common/header.component';
+import Footer from './common/footer.component';
 
 export default class Index extends Component {
 	render() {
 		return (
 			<div className="index">
+				<Header />
 				<div className="jumbotron main-jumbo">
 	        <h1 className="display-4">Howdy!</h1>
 	        <p className="lead">How was your day?  We want to know, and so do others.</p>
@@ -67,6 +70,7 @@ export default class Index extends Component {
 	          </div>
 	        </div>
 	      </div>
+	      <Footer />
       </div>
 		);
 	}

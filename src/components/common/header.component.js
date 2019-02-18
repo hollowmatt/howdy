@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import 'bootstrap-material-design/dist/css/bootstrap-material-design.min.css';
-import { BrowserRouter as Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
-export default class Header extends Component {
+class Header extends Component {
   render() {
     return (
       <ul className="nav justify-content-center">
@@ -23,4 +23,4 @@ export default class Header extends Component {
   }
 }
 
-			 
+export default Header;
