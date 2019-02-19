@@ -32,15 +32,15 @@ const staticData = {
 		"title": "Here's how",
 		"images": [
 			{
-				"imageURL": "./images/star.jpg",
+				"imageURL": "./images/star.png",
 				"imageText": "We'll ask you to rate how bad each of your days is"
 			},
 			{
-				"imageURL": "./images/arrow.jpg",
+				"imageURL": "./images/arrow.png",
 				"imageText": "Look back every week, every month, every year"
 			},
 			{
-				"imageURL": "./images/circle.jpg",
+				"imageURL": "./images/circle.png",
 				"imageText": "Compare yourself to others in your industry or in your role"
 			}
 		],
@@ -51,15 +51,15 @@ const staticData = {
   	"title": "Here's how for Corporations",
 		"images": [
 			{
-				"imageURL": "./images/star.jpg",
+				"imageURL": "./images/star.png",
 				"imageText": "Sign up for an enterprise account to start tracking your employees happiness"
 			},
 			{
-				"imageURL": "./images/arrow.jpg",
+				"imageURL": "./images/arrow.png",
 				"imageText": "Employees will login with their company email and be asked to rate their days of work"
 			},
 			{
-				"imageURL": "./images/circle.jpg",
+				"imageURL": "./images/circle.png",
 				"imageText": "Data is annonymized for you to track by level, function or group"
 			}
 		],
@@ -70,10 +70,10 @@ const staticData = {
 		"title": "Take a Peek",
 		"images": [
 		 {
-		 		"imageURL": "./images/square.jpg"
+		 		"imageURL": "./images/square.png"
 		 },
 		 {
-		 		"imageURL": "./images/square.jpg"
+		 		"imageURL": "./images/square.png"
 		 }
 		],
 		"button": "Yes. I'm ready!"
