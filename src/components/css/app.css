@@ -38,9 +38,14 @@
 }
 
 .jumbo-odd{
-  background-color: gray;
+  background-color: #cccccc;
 }
 
 .jumbo-even{
-  background-color: silver;
+  background-color: #f2f2f2;
+}
+
+.how-image {
+  padding: 10px;
+  margin: 10px;
 }
