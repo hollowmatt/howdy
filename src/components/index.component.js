@@ -7,7 +7,8 @@ const staticData = {
 	"heroData": {
 		"title": "Be data driven about hating your job",
 		"body": ["rate & track each and every day to know when it is time for a change."],
-		"button":"Start Tracking Now"
+		"button":"Start Tracking Now",
+		"style": "jumbotron jumbo-one"
 	},
 
 	"whyData": {
@@ -22,19 +23,60 @@ const staticData = {
 		 	"You can look back at your data at any time and compare yourself to everyone else, set alarms to " +
 		 	"trigger if you have too many bad days in a row and many other new features we are constantly " +
 		 	"experimenting with!"],
-		"button":"Start Today, Get the APP"
+		"button":"Start Today, Get the APP",
+		"style": "background-color:silver"
+
 	},
 	
 	"howData": {
-
+		"title": "Here's how",
+		"images": [
+			{
+				"imageURL": "./images/star.jpg",
+				"imageText": "We'll ask you to rate how bad each of your days is"
+			},
+			{
+				"imageURL": "./images/arrow.jpg",
+				"imageText": "Look back every week, every month, every year"
+			},
+			{
+				"imageURL": "./images/circle.jpg",
+				"imageText": "Compare yourself to others in your industry or in your role"
+			}
+		],
+		"style": "background-color:silver"
 	},
 
   "corpHow": {
-
+  	"title": "Here's how for Corporations",
+		"images": [
+			{
+				"imageURL": "./images/star.jpg",
+				"imageText": "Sign up for an enterprise account to start tracking your employees happiness"
+			},
+			{
+				"imageURL": "./images/arrow.jpg",
+				"imageText": "Employees will login with their company email and be asked to rate their days of work"
+			},
+			{
+				"imageURL": "./images/circle.jpg",
+				"imageText": "Data is annonymized for you to track by level, function or group"
+			}
+		],
+		"style": "background-color:silver"
   },
 
 	"peek": {
-
+		"title": "Take a Peek",
+		"images": [
+		 {
+		 		"imageURL": "./images/square.jpg"
+		 },
+		 {
+		 		"imageURL": "./images/square.jpg"
+		 }
+		],
+		"button": "Yes. I'm ready!"
 	}
 };
 
@@ -48,7 +90,6 @@ export default class Index extends Component {
 	        <div className="col">
 	          <div className="jumbotron">
 	            <h1 className="display-4">Personal Use</h1>
-	            <p className="lead">How was your day?  We want to know, and so do others.</p>
 	            <hr className="my-4"/>
 	            <p>
 	              Having a particularly good, or particularly bad day?  Let us know, then see 
