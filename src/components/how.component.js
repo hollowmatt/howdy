@@ -11,10 +11,12 @@ class How extends Component {
         <p className="center">
           {this.props.data.images.map(function(image, index) {
           	return( 
-              <div className="image-box">
-                <img className="how-image" src={image.imageURL} key={index} height="200" width="200"/>
-                {image.imageText}
-              </div>
+              <ul className="image-box">
+                <li>
+                  <img className="how-image" src={image.imageURL} key={index} height="200" width="200"/>
+                  <p>{image.imageText}</p>
+                </li>
+              </ul>
             )
           })}
         </p>

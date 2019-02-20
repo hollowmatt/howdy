@@ -44,12 +44,21 @@ input[type='checkbox']:checked {
 }
 
 .image-box {
-    width:image width px;
-    font-size: 80%;
     display: inline;
 }
 
-.how-image {
-    padding-bottom: 0.5em;
-    text-align: justify;
+.image-box li {
+    display: inline;
 }
+
+.image-box li p {
+    width:200px;
+    font-size: 80%;
+    text-align: center;
+}
+
+/*.image-box img {
+    padding-bottom: 0.5em;
+    display: block;
+    margin: 0 auto;
+}*/
