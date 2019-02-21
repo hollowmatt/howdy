@@ -20,7 +20,7 @@ class How extends Component {
           <div className="row">
             {this.props.data.images.map(function(image, index) {
             	return( 
-                <div className="col-sm">
+                <div className="col-sm" align="center">
                   <div className="image-box" key={index} >
                     <img className="how-image" src={image.imageURL} height="200" width="200"/>
                     <p>{image.imageText}</p>
@@ -29,7 +29,6 @@ class How extends Component {
               )
             })}
           </div>
-          <div className="float-clear"></div>
         </div>
       </div>
     );
