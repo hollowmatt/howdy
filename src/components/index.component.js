@@ -88,7 +88,6 @@ export default class Index extends Component {
 		return (
 			<div className="index">
 				<Header />
-				<Carousel />
 				<Hero data={staticData.heroData}/>
 				<How data={staticData.howData}/>
 	      <Hero data={staticData.whyData}/>
