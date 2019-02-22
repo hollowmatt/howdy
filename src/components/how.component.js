@@ -22,7 +22,7 @@ class How extends Component {
             	return( 
                 <div className="col-sm" align="center">
                   <div className="image-box" key={index} >
-                    <img className="how-image" src={image.imageURL} height="200" width="200"/>
+                    <img className="how-image img-fluid" src={image.imageURL} />
                     <p>{image.imageText}</p>
                   </div>
                 </div>

@@ -10,7 +10,7 @@ class Peek extends Component {
         <hr className="my-4 center"/>
         <p className="center">
           {this.props.data.images.map(function(image, index) {
-          	return <img className="how-image" src={image.imageURL} key={index} height="200" width="200"></img>
+          	return <img className="how-image img-fluid" src={image.imageURL} key={index} height="200" width="200"></img>
           })}
         </p>
          <p className="lead center">
