@@ -8,6 +8,7 @@
 .day-box {
 	border-style: solid;
 	padding: 10px;
+    margin:10px;
 }
 
 .label-text {
