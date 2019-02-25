@@ -4,6 +4,7 @@ import Footer from './common/footer.component';
 import Hero from './hero.component';
 import How from './how.component';
 import Peek from './peek.component';
+
 const staticData = {
 	"heroData": {
 		"title": "Be data driven about hating your job",
